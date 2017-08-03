@@ -1,0 +1,8 @@
+---
+applications:
+ - name: TestSum
+   random-route: true
+   path: target/TestSum.war
+   memory: 512M
+   instances: 1
+   buildpack:liberty-for-java
